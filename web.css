@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* adding image*/
+/* adding overlay add linear gradiant in background*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: o.6s ease;
+    border-radius: 25px;
+}
+ul li a:hover{
+    background: #fff;
+    color:#000;
+}
+/*to keep one menu active add active class ti li*/
+ul li.active a{
+    background: #fff;
+    color: #000;
+    
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title  h1{
+    color: #fff;
+    font-size: 60px;
+    font-family:serif;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.bin{
+    border:1px,solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.welcome{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
