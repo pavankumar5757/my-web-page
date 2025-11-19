@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width:100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(houde.jpg);
+    background-size: cover;
+    font-family:'century Gothic';
+
+}
+
+.main{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.welcome{
+    display: inline-block;
+    font-family: 'Century Gothic';
+    font-size: 1.3em;
+    font-weight: bold;
+    background: radial-gradient(red,yellow,green,pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.logo{
+    width: 50%;
+    align-items: center;
+    display: flex;
+
+}
+
+.main ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:'century Gothic';
+    transition: 0.4s ease;
+    font-size: 1.2em;
+
+}
+
+.main ul li a:hover{
+    background:white;
+    color:rgb(37, 52, 196);
+
+}
+
+.main ul li.active a{
+    background: white;
+    color: rgb(37, 52, 196);
+
+
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+    font-family:'century Gothic';
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.bin{
+    border:1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s ease;
+    margin: 5px;
+    font-family: 'century Gothic';
+    font-size: 1.0em;
+
+
+}
+
+.bin:hover{
+    background-color: white;
+    color:rgb(37, 52, 196);
+
+}
